@@ -1,0 +1,56 @@
+# ==========================================
+# Git Ignore for STM32 + IAR Embedded Workbench
+# Project: E7502 IO Extension Board (Ezi-SERVO)
+# ==========================================
+
+# IAR Embedded Workbench build directories & intermediate files
+EWARM/Debug/
+EWARM/Release/
+EWARM/settings/
+*.dep
+*.pbd
+*.pbi
+*.browse
+*.sim
+*.dni
+*.wsdt
+*.cout
+Backup of *
+*.ewt.settings
+*.ewp.settings
+
+# Compiler & Linker outputs
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+*.axf
+
+# Keil MDK / STM32CubeIDE temporary files (if used)
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.bak
+*.crf
+*.d
+*.htm
+*.build_log.htm
+*.launch
+.mxproject
+
+# Editor & OS files
+.vscode/
+.vs/
+*.swp
+*~
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary test files
+test_wmi.txt
